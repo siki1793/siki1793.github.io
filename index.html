@@ -1,1 +1,186 @@
-Hello World
+---
+title: Saikrishna Mundrati
+---
+{% assign personalData = site.data.personal[0] %}
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="shortcut icon" type="image/png" href="images/icons8-circled-s-50.png" />
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.1/css/bulma.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+
+  <title>{{ personalData.name }}</title>
+</head>
+
+<body>
+  <div class="columns" style="padding-top:20px">
+    <div class="column is-8 is-offset-2">
+
+      <div class="level content is-marginless">
+        <p class="title is-2 letter">{{ personalData.name }}</p>
+        <p class="subtitle is-5">
+          <a href="mailto:{{ personalData.email }}" target="_blank" class="icon layout-theme"><i
+              class="fa fa-envelope-square" aria-hidden="true"></i></a>
+          <a href="https://{{ personalData.linkedin }}" target="_blank" class="icon layout-theme"><i
+              class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+          <!-- <a href="http://{{ personalData.facebook }}" target="_blank" class="icon"><i class="fa fa-facebook-square"
+              aria-hidden="true"></i></a> -->
+          <a href="https://{{ personalData.github }}" target="_blank" class="icon layout-theme"><i
+              class="fa fa-github-square" aria-hidden="true"></i></a>
+          <!--a href="kumarpallav_resume.pdf" class="icon" download><i class="fa fa-download" aria-hidden="true"></i></a-->
+        </p>
+      </div>
+
+      <div class="content">
+        <span class="heading">
+          <h3 class="letter">Objective</h3>
+        </span>
+        {% for objective in site.data.des %}
+        <div class="level">
+          <p class="is-marginless"><span class="content is-marginless">{{ objective.objective }}</span>
+          </p>
+        </div>
+        {% endfor %}
+      </div>
+      <div class="content">
+        <span class="heading">
+          <h3 class="letter">Education</h3>
+        </span>
+        {% for schoolData in site.data.edu %}
+        <div class="level">
+          <p class="is-marginless">{{ schoolData.school }}<br /><span class="content is-marginless"
+              style="font-size: 0.8rem">{{ schoolData.degree }}</span></p>
+          <p style="text-align: right; font-size: 0.8rem">{{ schoolData.school_location }}<br /><span
+              class="content is-marginless">{{ schoolData.time_period }}</span></p>
+        </div>
+        {% endfor %}
+      </div>
+
+      <div class="content">
+        <span class="heading">
+          <h3 class="letter">Experience</h3>
+        </span>
+        {% for experience in site.data.exp %}
+        <div class="level is-marginless">
+          <p class="is-marginless">{{ experience.company }}<br /><span class="content is-marginless"
+              style="font-size: 0.8rem">{{ experience.role }}, {{ experience.team }}</span></p>
+          <p style="text-align: right; font-size: 0.8rem">{{ experience.company_location }}<br /><span
+              class="content is-marginless">{{ experience.time_duration }}</span></p>
+        </div>
+        <ul style="margin-top: 0.2em; list-style-type: circle;">
+          {% for detail in experience.details %}
+          <li class="content is-marginless" style="font-size: 0.8rem">
+            <span class="heading is-marginless">
+              {{ detail.title }}
+              <span class="layout-theme"
+                style="margin-left:  5px; font-size: 10px; font-family:  monospace;">{{ detail.languages }}</span>
+            </span>
+            <ul style="margin-top: 0.2em; list-style-type: disc;">
+
+              {% for point in detail.description %}
+              <li class="content is-marginless" style="font-size: 0.8rem">
+                {{ point.point }}
+              </li>
+              {% endfor %}
+            </ul>
+
+          </li>
+          {% endfor %}
+        </ul>
+        {% endfor %}
+      </div>
+
+      <div class="content">
+        <span class="heading">
+          <h3 class="letter">Projects</h3>
+        </span>
+        {% for project in site.data.proj %}
+        <p class="heading is-marginless">
+          {{ project.title }}
+          <span class="layout-theme"
+            style="margin-left:  5px; font-size: 10px; font-family:  monospace;">{{ project.languages }}
+            {% if project.links[0].repo.size >0 %}
+            (<a class="layout-theme" href='{{ project.links[0].repo }}'>Github Link</a>)
+            {% endif %}
+          </span>
+        </p>
+        <ul style="margin-top: 0.2em; list-style-type: disc;">
+
+          {% for point in project.description %}
+          <li class="content is-marginless" style="font-size: 0.8rem">
+            {{ point.point }}
+          </li>
+          {% endfor %}
+        </ul>
+        {% endfor %}
+      </div>
+
+      <div class="content">
+        <span class="heading">
+          <h3 class="letter">Skills</h3>
+        </span>
+        <p class="heading is-marginless">Languages</p>
+        <p style="font-size: 0.8rem">
+          {% for language in personalData.languages %}
+          {{language.language}},
+          {% endfor %}
+        </p>
+
+        <p class="heading is-marginless">Technologies</p>
+        <p style="font-size: 0.8rem">
+          {% for technology in personalData.technologies %}
+          {{technology.technology}},
+          {% endfor %}
+        </p>
+      </div>
+
+      <div class="content">
+        <span class="heading">
+          <h3 class="letter">Achievements</h3>
+          <ul style="margin-top: 0.2em; list-style-type: disc;">
+
+            {% for point in site.data.ach %}
+            <li class="content is-marginless" style="font-size: 0.8rem">
+              {{ point.webPoint }}
+            </li>
+            {% endfor %}
+          </ul>
+        </span>
+      </div>
+
+      <div class="content">
+        <span class="heading">
+          <h3 class="letter">Extra Curricular Activities</h3>
+          <ul style="margin-top: 0.2em; list-style-type: disc;">
+
+            {% for point in site.data.extra %}
+            <li class="content is-marginless" style="font-size: 0.8rem">
+              {{ point.webPoint }}
+            </li>
+            {% endfor %}
+          </ul>
+        </span>
+      </div>
+
+      <footer class="footer" style="background: inherit;">
+        <div class="content has-text-centered">
+          <p>
+            <a class="icon layout-theme" href="https://github.com/siki1793/siki1793.github.io" target="_blank">
+              <i class="fa fa-github"></i>
+            </a>
+            <a href="saikrishna_mundrati.pdf" target="_blank" class="icon layout-theme" download>
+              <i class="fa fa-download" aria-hidden="true">
+              </i></a>
+          </p>
+        </div>
+      </footer>
+
+    </div>
+  </div>
+</body>
+
+</html>

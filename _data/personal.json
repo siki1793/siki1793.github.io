@@ -1,0 +1,57 @@
+[{
+    "name": "Saikrishna Mundrati",
+    "website": "siki1793.github.io",
+    "email": "saikrishna1793.sk@gmail.com",
+    "email2": "saikrishna.mundrathi@gmail.com",
+    "phone": "+91-9989632260",
+    "linkedin": "linkedin.com/in/saikrishna-m/",
+    "github": "github.com/siki1793",
+    "languages": [{
+            "language": "Java"
+        }, {
+            "language": "JavaScript"
+        }, {
+            "language": "C++"
+        },
+        {
+            "language": "C"
+        },
+        {
+            "language": "Python(Basics)"
+        },
+        {
+            "language": "PHP"
+        },
+        {
+            "language": "\\LaTeX (Basics)"
+        }
+    ],
+    "technologies": [{
+            "technology": "Springboot"
+        },
+        {
+            "technology": "Node.JS"
+        },
+        {
+            "technology": "MySQL"
+        },
+        {
+            "technology": "GIT"
+        },
+        {
+            "technology": "JIRA"
+        },
+        {
+            "technology": "Tableau"
+        },
+        {
+            "technology": "QT"
+        },
+        {
+            "technology": "Windows"
+        },
+        {
+            "technology": "Linux"
+        }
+    ]
+}]

@@ -1,0 +1,23 @@
+[{
+        "school": "International Institute of Information Technology, Bangalore",
+        "school_location": "karnataka, India",
+        "degree": "Master of Technology in Information Technology; CGPA 2.91/4",
+        "time_period": "2015 - 2017"
+    },
+    {
+        "school": "Gokaraju Rangaraju Institute of Engineering and Technology, Hyderabad (JNTUH)",
+        "school_location": "Telangana, India",
+        "degree": "Bachelor of Technology in Information Technology; Percentage 77.5",
+        "time_period": "2011 - 2015"
+    }, {
+        "school": "Narayana KPIC IIT academy, Hyderabad",
+        "school_location": "Telangana, India",
+        "degree": "Board of Intermediate Education in MPC; Percentage 88.8",
+        "time_period": "2009 - 2011"
+    }, {
+        "school": "All Saints’ [E.M] High School, Hanamkonda",
+        "school_location": "Telangana, India",
+        "degree": "Secondary School Certificate Education; Percentage 76",
+        "time_period": "2008 - 2009"
+    }
+]
