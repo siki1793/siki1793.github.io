@@ -5,36 +5,38 @@
         "team": "Engineering Team",
         "time_duration": "July 2017 - Present",
         "details": [{
-                "title": "Backend services , CorDL",
+                "title": "Pixel Perfect Server",
                 "description": [{
-                    "point": "Designed Backend, microservice based architecure for Cordl Product."
-                }, {
+                    "point": "Designed Backend, microservice based architecure for Pixel Perfect Server.Designed and implemented Custom Scheduler,Core Engine, API layer ."
+                }],
+                "languages": "Java, Springboot, POSTgreSQL, React.js, Tableau APIs"
+            }, {
+                "title": "API services in CorDL",
+                "description": [{
                     "point": "Designed and developed Custom Authentication Service an alternative for Oauth2 based authentication.And developed Multiple microservices for CorDL (Client, Timesheet, Emails)."
                 }],
                 "languages": "Java, Springboot, MySQL"
             },
             {
-                "title": "MailBox and Email Integeration , CorDL",
+                "title": "MailBox and Email Integeration in CorDL",
                 "description": [{
-                    "point": "Introduced Client Communication System, works as AI Service which interact with every module (Like Tasks, Clients, 3rd party Mail Servers)"
-                }, {
-                    "point": "Built a Custom Driver and backend service as part of communication system."
+                    "point": "Introduced Client Communication System,which interact with every module (Like Tasks, Clients, 3rd party Mail Servers). Built a Custom Driver and backend service as part of communication system."
                 }],
                 "languages": "Java, Springboot, PHP, MySQL"
             },
             {
-                "title": "Reporting and Analytics , CorDL",
+                "title": "Reporting and Analytics in CorDL",
                 "description": [{
                     "point": "Created customer focused and employee efficiency reports in D3.js, for improving productivity of CorDL Customers. Developed Tableau dashboard for internal sales and product insights."
                 }],
                 "languages": "D3.js, Tableau, PHP, MySQL"
             },
             {
-                "title": "Embedded Report Integration , Morgan Stanley",
+                "title": "Custom Application for Excel(Part Of Pixel Perfect)",
                 "description": [{
-                    "point": "Involved in POC for client, Integrated tableau reports in angular and successfully converted as client."
+                    "point": "Designed and build a custom application which pull data from Tableau Server to excel in chunks, with SSO."
                 }],
-                "languages": "Javascript, Angular"
+                "languages": "Javascript, Java, HTML, CSS"
             }
         ]
     },
