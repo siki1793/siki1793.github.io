@@ -35,7 +35,7 @@ title: Saikrishna Mundrati
         </p>
       </div>
 
-      <div class="content">
+      <!-- <div class="content">
         <span class="heading">
           <h3 class="letter">Objective</h3>
         </span>
@@ -45,20 +45,7 @@ title: Saikrishna Mundrati
           </p>
         </div>
         {% endfor %}
-      </div>
-      <div class="content">
-        <span class="heading">
-          <h3 class="letter">Education</h3>
-        </span>
-        {% for schoolData in site.data.edu %}
-        <div class="level">
-          <p class="is-marginless">{{ schoolData.school }}<br /><span class="content is-marginless"
-              style="font-size: 0.8rem">{{ schoolData.degree }}</span></p>
-          <p style="text-align: right; font-size: 0.8rem">{{ schoolData.school_location }}<br /><span
-              class="content is-marginless">{{ schoolData.time_period }}</span></p>
-        </div>
-        {% endfor %}
-      </div>
+      </div> -->
 
       <div class="content">
         <span class="heading">
@@ -93,7 +80,19 @@ title: Saikrishna Mundrati
         </ul>
         {% endfor %}
       </div>
-
+      <div class="content">
+        <span class="heading">
+          <h3 class="letter">Education</h3>
+        </span>
+        {% for schoolData in site.data.edu %}
+        <div class="level">
+          <p class="is-marginless">{{ schoolData.school }}<br /><span class="content is-marginless"
+              style="font-size: 0.8rem">{{ schoolData.degree }}</span></p>
+          <p style="text-align: right; font-size: 0.8rem">{{ schoolData.school_location }}<br /><span
+              class="content is-marginless">{{ schoolData.time_period }}</span></p>
+        </div>
+        {% endfor %}
+      </div>
       <div class="content">
         <span class="heading">
           <h3 class="letter">Projects</h3>
