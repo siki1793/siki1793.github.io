@@ -1,9 +1,7 @@
 [{
         "title": "Mobile Data Analysis",
         "description": [{
-            "point": "As part of Masters project, worked server side created data models for mobile usage analysis."
-        }, {
-            "point": " data is captured from mobile app which runs as background service in mobile fetches mobile data and wifi usage based on applications."
+            "point": "Worked server side created data models for mobile usage analysis.Where data is captured from background service in mobile fetches mobile network usage across applications."
         }],
         "links": [{
             "name": "website link(Click Here)",
@@ -31,7 +29,7 @@
     {
         "title": "3D Modelling and Visualization",
         "description": [{
-            "point": "As Part of Master Project, Created a desktop application for creating physical 3D printed models from CT, MRT using Makerbot replicator"
+            "point": "Build a Visualization tool for creating physical 3D printed models from CT, MRT which is used for medical surgery"
         }],
         "links": [{
             "name": "Project Repo(Click Here)",
@@ -39,17 +37,5 @@
             "repo": "https://github.com/siki1793/3DModeller"
         }],
         "languages": "QT++, C++, VTK"
-    },
-    {
-        "title": "B-Rep Modeller",
-        "description": [{
-            "point": "Created a data structure for B-Representations model which create a printable 3D Model from json input file"
-        }],
-        "links": [{
-            "name": "Project Repo(Click Here)",
-            "link": "https://github.com/siki1793/brep-modeller",
-            "repo": "https://github.com/siki1793/brep-modeller"
-        }],
-        "languages": "C++"
     }
 ]

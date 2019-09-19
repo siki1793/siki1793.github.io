@@ -30,7 +30,13 @@
             "technology": "Springboot"
         },
         {
+            "technology": "ResctJS (Basic)"
+        },
+        {
             "technology": "Node.JS"
+        },
+        {
+            "technology": "POSTgreSQL"
         },
         {
             "technology": "MySQL"
@@ -40,12 +46,6 @@
         },
         {
             "technology": "JIRA"
-        },
-        {
-            "technology": "Tableau"
-        },
-        {
-            "technology": "QT"
         },
         {
             "technology": "Windows"

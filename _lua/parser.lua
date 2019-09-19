@@ -107,9 +107,11 @@ function printList(file, primary, secondary)
   for key, value in pairs(json) do
     for key, value in pairs(value[primary]) do
       if (first) then
+        tex.print("\\small")
         tex.print(value[secondary])
         first = false
       else
+        tex.print("\\small")
         tex.print(", " .. value[secondary])
       end
     end

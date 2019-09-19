@@ -108,23 +108,23 @@ require("_lua/parser.lua")
 
 % Print Objective
 %-------------------------------------------
-\section{Objective}
-  \resumeTextStart
-	\directlua{printObjItems("_data/des.json")}
-  \resumeTextEnd
-
-% Print Education
-%-------------------------------------------
-\section{Education}
-  \resumeSubHeadingListStart
-	\directlua{printEduItems("_data/edu.json")}
-  \resumeSubHeadingListEnd
+%\section{Objective}
+ % \resumeTextStart
+%	\directlua{printObjItems("_data/des.json")}
+%  \resumeTextEnd
 
 % Print Experience
 %-------------------------------------------
 \section{Work Experience}
   \resumeSubHeadingListStart
   	\directlua{printExpItems("_data/exp.json")}
+  \resumeSubHeadingListEnd
+
+% Print Education
+%-------------------------------------------
+\section{Education}
+  \resumeSubHeadingListStart
+	\directlua{printEduItems("_data/edu.json")}
   \resumeSubHeadingListEnd
 
 % Print Projects

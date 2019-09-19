@@ -7,13 +7,17 @@
         "details": [{
                 "title": "Pixel Perfect Server",
                 "description": [{
-                    "point": "Designed Backend, microservice based architecure for Pixel Perfect Server.Designed and implemented Custom Scheduler,Core Engine, API layer ."
-                }],
-                "languages": "Java, Springboot, POSTgreSQL, React.js, Tableau APIs"
+                        "point": "Designed Backend, microservice based architecure for Pixel Perfect Server.Designed and implemented Custom Scheduler,Core Engine, API layer ."
+                    },
+                    {
+                        "point": "In core Engine worked on data extracting, transforming and populate the data in to multiple export level format's."
+                    }
+                ],
+                "languages": "Java, Springboot, POSTgreSQL, React.js"
             }, {
                 "title": "API services in CorDL",
                 "description": [{
-                    "point": "Designed and developed Custom Authentication Service an alternative for Oauth2 based authentication.And developed Multiple microservices for CorDL (Client, Timesheet, Emails)."
+                    "point": "Designed and developed Custom Authentication Service an alternative for Oauth2 based authentication.And developed Multiple microservices for CorDL (Client, Timesheets, Emails)."
                 }],
                 "languages": "Java, Springboot, MySQL"
             },
@@ -29,14 +33,7 @@
                 "description": [{
                     "point": "Created customer focused and employee efficiency reports in D3.js, for improving productivity of CorDL Customers. Developed Tableau dashboard for internal sales and product insights."
                 }],
-                "languages": "D3.js, Tableau, PHP, MySQL"
-            },
-            {
-                "title": "Custom Application for Excel(Part Of Pixel Perfect)",
-                "description": [{
-                    "point": "Designed and build a custom application which pull data from Tableau Server to excel in chunks, with SSO."
-                }],
-                "languages": "Javascript, Java, HTML, CSS"
+                "languages": "D3.js, Javascript, PHP, MySQL"
             }
         ]
     },
