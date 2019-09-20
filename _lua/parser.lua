@@ -118,6 +118,21 @@ function printList(file, primary, secondary)
   end
 end
 
+function printInterest(file, primary, secondary)
+  local json = getJsonFromFile(file)
+  local first = true
+  for key, value in pairs(json) do
+    if (first) then
+      tex.print("\\small")
+      tex.print(value["point"])
+      first = false
+    else
+      tex.print("\\small")
+      tex.print(", " .. value["point"])
+    end
+  end
+end
+
 function printObjItems(file)
   local json = getJsonFromFile(file)
   for key, value in pairs(json) do

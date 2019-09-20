@@ -145,6 +145,15 @@ require("_lua/parser.lua")
       }
   \resumeSubHeadingListEnd
 
+% Print Interest
+%------------------------------------------
+\section{Area of Interest}
+ \resumeSubHeadingListStart
+ \item{
+	\directlua{printInterest("_data/inte.json")}
+ }
+ \resumeSubHeadingListEnd
+
 % Print Achievements
 %------------------------------------------
 \section{Achievements}
@@ -154,10 +163,10 @@ require("_lua/parser.lua")
 
 % Print Achievements
 %------------------------------------------
-\section{Extra Curricular Activities}
-\resumeSubHeadingListStart
-	\directlua{printAchItems("_data/extra.json")}
-\resumeSubHeadingListEnd
+%\section{Extra Curricular Activities}
+%\resumeSubHeadingListStart
+%	\directlua{printAchItems("_data/extra.json")}
+%\resumeSubHeadingListEnd
 
 
 \end{document}

@@ -15,18 +15,6 @@
         "languages": "Node.js, MongoDB, Heroku, Express"
     },
     {
-        "title": "IIITB SDC",
-        "description": [{
-            "point": "SDC is a platform to create applications for College, part of applications development process build multiple web services and cross platform mobile application for student management"
-        }],
-        "links": [{
-            "name": "",
-            "link": "",
-            "repo": ""
-        }],
-        "languages": "Java, Jersey, Jenkins, MySQL, Phonegap, Html, CSS, Javascript"
-    },
-    {
         "title": "3D Modelling and Visualization",
         "description": [{
             "point": "Build a Visualization tool for creating physical 3D printed models from CT, MRT which is used for medical surgery"

@@ -46,7 +46,7 @@
         "details": [{
             "title": "Video Analysis",
             "description": [{
-                "point": "Designed and implemented Video Management System GUI. Architecture of system and development from the scratch.And setup and maintained source control for projects."
+                "point": "Designed and implemented Video Management System GUI for Existing algorithms."
             }, {
                 "point": "Implemented algorithms for number plate recognition and trace passing using OpenCV library, integrated Existing algorithms with QT GUI."
             }],
