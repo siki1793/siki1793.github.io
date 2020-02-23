@@ -1,13 +1,32 @@
 [{
+        "company": "Blackbuck",
+        "company_location": "Bangalore, India",
+        "role": "Software Development Engineer",
+        "team": "Supply Tech",
+        "time_duration": "Dec 2019 - Present",
+        "details": [{
+            "title": "Notifications for OSA",
+            "description": [{
+                "point": "Designed and developed Backend, notification system for OSA, interactions with multiple microservices and kafka event to deliver push notifications on any transactions made by user."
+            }],
+            "languages": "Java, Springboot, MySQL, Kafka"
+        }, {
+            "title": "Truck Attributes",
+            "description": [{
+                "point": "Involved in developed truck attributes backend for matchmaking fleet owner to have right order acceptance."
+            }],
+            "languages": "Java, Springboot, MySQL"
+        }]
+    }, {
         "company": "USEReady Technologies",
         "company_location": "Bangalore, India",
         "role": "Senior Software Engineer",
         "team": "Engineering Team",
-        "time_duration": "July 2017 - Present",
+        "time_duration": "July 2017 - Dec 2019",
         "details": [{
                 "title": "Pixel Perfect Server",
                 "description": [{
-                        "point": "Designed Backend, microservice based architecure for Pixel Perfect Server.Designed and implemented Custom Scheduler,Core Engine, API layer ."
+                        "point": "Designed Backend, microservice based architecture for Pixel Perfect Server.Designed and implemented Custom Scheduler,Core Engine, API layer ."
                     },
                     {
                         "point": "In core Engine worked on data extracting, transforming and populate the data in to multiple export level format's."
@@ -22,18 +41,15 @@
                 "languages": "Java, Springboot, MySQL"
             },
             {
-                "title": "MailBox and Email Integeration in CorDL",
+                "title": "MailBox, Email Integration and Reporting and Analytics in CorDL",
                 "description": [{
-                    "point": "Introduced Client Communication System,which interact with every module (Like Tasks, Clients, 3rd party Mail Servers). Built a Custom Driver and backend service as part of communication system."
-                }],
-                "languages": "Java, Springboot, PHP, MySQL"
-            },
-            {
-                "title": "Reporting and Analytics in CorDL",
-                "description": [{
-                    "point": "Created customer focused and employee efficiency reports in D3.js, for improving productivity of CorDL Customers. Developed Tableau dashboard for internal sales and product insights."
-                }],
-                "languages": "D3.js, Javascript, PHP, MySQL"
+                        "point": "Introduced Client Communication System,which interact with every module (Like Tasks, Clients, 3rd party Mail Servers). Built a Custom Driver and backend service as part of communication system."
+                    },
+                    {
+                        "point": "Created customer focused and employee efficiency reports in D3.js, for improving productivity of CorDL Customers. Developed Tableau dashboard for internal sales and product insights."
+                    }
+                ],
+                "languages": "Java, Springboot, PHP, D3.js, Javascript MySQL"
             }
         ]
     },
