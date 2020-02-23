@@ -26,10 +26,7 @@
         "details": [{
                 "title": "Pixel Perfect Server",
                 "description": [{
-                        "point": "Designed Backend, microservice based architecture for Pixel Perfect Server.Designed and implemented Custom Scheduler,Core Engine, API layer ."
-                    },
-                    {
-                        "point": "In core Engine worked on data extracting, transforming and populate the data in to multiple export level format's."
+                        "point": "Designed Backend, microservice based architecture for Pixel Perfect Server.Designed and implemented Custom Scheduler,Core Engine, API layer. In core Engine worked on data extracting, transforming and populate the data in to multiple export level format's."
                     }
                 ],
                 "languages": "Java, Springboot, POSTgreSQL, React.js"
