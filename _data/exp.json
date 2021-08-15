@@ -5,6 +5,25 @@
         "team": "Supply Backend",
         "time_duration": "Dec 2019 - Present",
         "details": [{
+            "title": "Transporter profile, rating and reviews",
+            "description": [{
+                "point": "Designed and developed Backend, Transporter profile backend for BOSS App."
+            },{
+                "point": "developed Backend for ratings and review for transporter and fleetowners"
+            }],
+            "languages": "Java, Springboot, MySQL, Kafka"
+        }, {
+            "title": "Image Compressions",
+            "description": [{
+                "point": "Designed and developed Backend for fleetowner profile image compression"
+            }],
+            "languages": "Java, Springboot, MySQL, AWS lambda, python"
+        }]
+    }, {
+        "role": "Software Development Engineer",
+        "team": "Supply Backend",
+        "time_duration": "Dec 2019 - Present",
+        "details": [{
             "title": "Notifications for OSA",
             "description": [{
                 "point": "Designed and developed Backend, notification system for OSA, interactions with multiple microservices and kafka event to deliver push notifications on any transactions made by user."
