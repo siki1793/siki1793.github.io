@@ -1,8 +1,8 @@
 [{
         "company": "Blackbuck",
         "company_location": "Bangalore, India",
-        "role": "Software Development Engineer",
-        "team": "Backend",
+        "role": "Software Development Engineer 2",
+        "team": "Supply Backend",
         "time_duration": "Dec 2019 - Present",
         "details": [{
             "title": "Notifications for OSA",
@@ -31,22 +31,17 @@
                 ],
                 "languages": "Java, Springboot, POSTgreSQL, React.js"
             }, {
-                "title": "API services in CorDL",
+                "title": "API services, MailBox, Email Integration and Reporting and Analytics in CorDL",
                 "description": [{
                     "point": "Designed and developed Custom Authentication Service an alternative for Oauth2 based authentication.And developed Multiple microservices for CorDL (Client, Timesheets, Emails)."
+                },
+                {
+                    "point": "Introduced Client Communication System, which interact with every module (Like Tasks, Clients, 3rd party Mail Servers). Built a Custom Driver and backend service as part of communication system."
+                },
+                {
+                    "point": "Created customer focused and employee efficiency reports in D3.js, for improving productivity of CorDL Customers. Developed Tableau dashboard for internal sales and product insights."
                 }],
-                "languages": "Java, Springboot, MySQL"
-            },
-            {
-                "title": "MailBox, Email Integration and Reporting and Analytics in CorDL",
-                "description": [{
-                        "point": "Introduced Client Communication System,which interact with every module (Like Tasks, Clients, 3rd party Mail Servers). Built a Custom Driver and backend service as part of communication system."
-                    },
-                    {
-                        "point": "Created customer focused and employee efficiency reports in D3.js, for improving productivity of CorDL Customers. Developed Tableau dashboard for internal sales and product insights."
-                    }
-                ],
-                "languages": "Java, Springboot, PHP, D3.js, Javascript MySQL"
+                "languages": "Java, Springboot, MySQL, PHP, D3.js, Javascript"
             }
         ]
     },
