@@ -20,6 +20,8 @@
             "languages": "Java, Springboot, MySQL, AWS lambda, python"
         }]
     }, {
+        "company": "Blackbuck",
+        "company_location": "Bangalore, India",
         "role": "Software Development Engineer",
         "team": "Supply Backend",
         "time_duration": "Dec 2019 - Mar 2021",
