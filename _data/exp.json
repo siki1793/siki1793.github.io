@@ -1,9 +1,49 @@
 [{
+        "company": "DP World",
+        "company_location": "Hyderabad, India",
+        "role": "Group SDE - II (SDE-3)",
+        "team": "Cargoes Runner",
+        "time_duration": "May 2023 - Present",
+        "details": [{
+            "title": "Workflow Management",
+            "description": [{
+                "point": "Lead Design and development of workflow management for Cargoes Runner Platform from scratch, perfomed performance tunning by reducing high latency api."
+            }, {
+                "point":"Implemented and maintained Self-managed kafka deployments for Cargoes Runner Platform with disaster recovery plan and kafka database connectors."
+            }, {
+                "point": "Successfully expanded finance applications of all regions in US with 98% data accuracy."
+            }],
+            "languages": "Java, Hibernate, POSTgreSQL, MS SQL, Kafka, Kubernetes, Java SSE, Redis, Newrelic"
+        }, {
+            "title": "Bridge Service",
+            "description": [{
+                "point": "Lead Design and development of Integration application called Bridge for Cargoes Runner Platform, Revamped User Management, request configuration and retry logic."
+            }],
+            "languages": "Java, Hibernate, POSTgreSQL, Kafka, Kubernetes, Hazelcast, Apache Camel"
+        }]
+    }, {
+        "company": "Compass",
+        "company_location": "Hyderabad, India",
+        "role": "Software Engineer - II",
+        "team": "Financial Services",
+        "time_duration": "May 2022 - May 2023",
+        "details": [{
+            "title": "Agent Finance",
+            "description": [{
+                "point": "Worked in building finance applications at compass for real estate agents which shows the state of their business in near real time."
+            }, {
+                "point":"Lead the revamp of existing architecture to a more simple and scalable architecture. Improved system by 90% faster and reduced cost of RDS usage by 50%."
+            }, {
+                "point": "Successfully expanded finance applications of all regions in US with 98% data accuracy."
+            }],
+            "languages": "Java, Hibernate, POSTgreSQL, Google Guice, Kafka, python, GRPC, Airflow, Kubernetes, Thrift, Datadog"
+        }]
+    }, {
         "company": "Blackbuck",
         "company_location": "Bangalore, India",
         "role": "Software Development Engineer 2",
         "team": "Supply Backend",
-        "time_duration": "Apr 2021 - Present",
+        "time_duration": "Jan 2021 - April 2022",
         "details": [{
             "title": "Transporter profile, rating and reviews",
             "description": [{
@@ -24,7 +64,7 @@
         "company_location": "Bangalore, India",
         "role": "Software Development Engineer",
         "team": "Supply Backend",
-        "time_duration": "Dec 2019 - Mar 2021",
+        "time_duration": "Dec 2019 - Dec 2020",
         "details": [{
             "title": "Notifications for OSA",
             "description": [{
