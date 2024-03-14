@@ -11,7 +11,7 @@
             }, {
                 "point":"Implemented and maintained Self-managed kafka deployments for Cargoes Runner Platform with disaster recovery plan and kafka database connectors."
             }, {
-                "point": "Successfully expanded finance applications of all regions in US with 98% data accuracy."
+                "point": "Successfully workflow to 100 locations as part of cargoes runner platform suite."
             }],
             "languages": "Java, Hibernate, POSTgreSQL, MS SQL, Kafka, Kubernetes, Java SSE, Redis, Newrelic"
         }, {
